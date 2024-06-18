@@ -1,0 +1,32 @@
+---
+title: "SIG5_field_PNAS"
+author: "Haruki Nishio"
+date: "2024/6/18"
+---
+
+```{r setting, include=F}
+knitr::opts_chunk$set(echo = F, warning = F)
+
+# Load libraries
+library(rmdformats)
+library(knitr)
+```
+
+### 01_STM_diff_MarSep_rep.R
+The R code for a smooth trend model to evaluate the differences in gene expression between March and September in 2015.
+
+### 02_LLMX_MarSep_SIG5.R
+The R code for a local level model with exogenous variables (LLMX) to evaluate the influences of temperature, irradiance and AhgCCA1 transcript on AhgSIG5 transcript in March and September, 2015.
+
+### 03_LLMX_MarSep_BLRP.R
+The R code for a local level model with exogenous variables (LLMX) to evaluate the influences of temperature, irradiance and AhgSIG5 transcript on AhgpsbD BLRP transcript in March and September, 2015.
+
+### data
+The raw data of transcript abundance and environmental factors.
+
+### functions
+The custom functions to perform analyses.
+
+### stan_model
+The stan codes that describe state space models.
+
